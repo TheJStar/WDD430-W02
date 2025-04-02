@@ -1,5 +1,5 @@
 import CardWrapper from '@/app/ui/dashboard/cards';
-// import { Card } from '@/app/ui/dashboard/cards'; // unused
+import { Card } from '@/app/ui/dashboard/cards'; // eslint-disable-line
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
@@ -10,8 +10,8 @@ import {
   CardsSkeleton
 } from '@/app/ui/skeletons';
 import { 
-  // fetchLatestInvoices, // unused
-  // fetchCardData // unused
+  fetchLatestInvoices, // eslint-disable-line
+  fetchCardData // eslint-disable-line
 } from '@/app/lib/data';
 import { Metadata } from "next";
 
